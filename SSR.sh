@@ -8,7 +8,6 @@ if [[ -z $APIFS ]]
 	then
 		APIFS=glzjinmod
 	fi
-fi
 	if [[ $APIFS == glzjinmod ]]
 		echo "请输入数据库服务器地址"
 			read MYSQLFWQ
