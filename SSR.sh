@@ -137,7 +137,7 @@ yum makecache
 	#导入SSR主程序
 	supervisorctl stop ssr
 	rm -rf Geek
-	wget -N --no-check-certificate https://github.com/geekvpn/P-Other/raw/master/Geek.zip
+	wget -N --no-check-certificate https://raw.githubusercontent.com/geekvpn/P-Other/master/Geek.zip
 	unzip Geek.zip
 	rm -rf Geek.zip
 	cd Geek
@@ -157,7 +157,7 @@ yum makecache
 	pip install supervisor
 	rm -rf /etc/supervisord.conf
 	cd /etc/
-	wget -N --no-check-certificate https://github.com/geekvpn/P-Other/raw/master/supervisord.conf
+	wget -N --no-check-certificate https://raw.githubusercontent.com/geekvpn/P-Other/master/supervisord.conf
 	cd
 	#重启命令
 	echo "echo ReStart Ing...
